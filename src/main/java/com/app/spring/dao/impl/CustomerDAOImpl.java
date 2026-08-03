@@ -54,7 +54,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Override
 	public Customer getCustomerById(int id) {
 		Session session = this.sessionFactory.getCurrentSession();
-		Customer c = session.get(Customer.class, id);
+		Customer c = session.find(Customer.class, id);
 		logger.info("Customer loaded successfully, Customer details=" + c);
 		return c;
 	}
@@ -62,7 +62,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Override
 	public void removeCustomer(int id) {
 		Session session = this.sessionFactory.getCurrentSession();
-		Customer c = session.get(Customer.class, id);
+		Customer c = session.find(Customer.class, id);
 		if (null != c) {
 			session.remove(c);
 		}
