@@ -17,7 +17,7 @@
 		<jakarta.servlet-version>6.1.0</jakarta.servlet-version>
 		<jakarta.jsp-version>4.0.0</jakarta.jsp-version>
 		<jakarta.jstl-version>3.0.0</jakarta.jstl-version>
-		<hikaricp-version>6.3.0</hikaricp-version>
+		<hikaricp-version>7.1.0</hikaricp-version>
 		<mysql-connector-version>9.3.0</mysql-connector-version>
 	</properties>
 	<dependencies>
