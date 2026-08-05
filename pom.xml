@@ -11,7 +11,7 @@
 		<maven.compiler.release>17</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.springframework-version>7.0.0</org.springframework-version>
-		<org.slf4j-version>2.0.16</org.slf4j-version>
+		<org.slf4j-version>2.0.18</org.slf4j-version>
 		<logback-version>1.5.8</logback-version>
 		<hibernate.version>7.0.0.Final</hibernate.version>
 		<jakarta.servlet-version>6.1.0</jakarta.servlet-version>
